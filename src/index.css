@@ -1,0 +1,92 @@
+body{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color:rgb(245, 221, 191);
+}
+.full-page{
+ display: flex;
+ justify-content: center;
+ border-radius: 10px;
+ flex-direction: column;
+ margin-top: 2rem;
+ gap:.5rem;
+ background-color: azure;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ 
+}
+.center{
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  text-align: center;
+  background-color: rgb(72, 196, 220);
+  padding:10px 15px;
+}
+input{
+  padding:12px 17px;
+  border: none;
+  outline:none ;
+  text-align: center;
+  background-color: transparent;
+  border-bottom: 2.5px solid rgb(72, 196, 220);; 
+  margin: 0rem 4rem 0rem 2rem;
+}
+.list li{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  margin-top:-2.5rem;
+  margin-left:5rem;
+}
+.list{
+  margin-bottom: 2rem;
+}
+.addSymbol{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin: 0rem 1.2rem 0rem 1.2rem;
+}
+
+.addSymbol h1{
+  cursor: pointer;
+  margin-left: -3.4rem;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color:rgb(72, 196, 220); 
+  padding:6px;
+  border:black;
+  line-height: 1.8rem;
+  text-align: center;
+
+}
+.addSymbol h1:hover{
+  background-color: green;
+}
+.full-page p{
+  text-align: center;
+}
+.list span{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: rgb(237, 173, 237);
+  padding:6px;
+  border:black;
+  text-align: center;
+  line-height: 1.8rem; 
+  position: relative;
+  top:-1rem;
+  left: 6rem;
+}
+.list span:hover{
+  background-color: orangered;
+}
